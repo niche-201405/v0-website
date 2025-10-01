@@ -84,16 +84,15 @@ export default function BoyfriendsDayPage() {
               <Heart className="w-20 h-20 mx-auto text-primary" fill="currentColor" />
             </div>
             <h1 className="text-6xl md:text-8xl font-bold text-balance leading-tight">
-              <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+              <span className="text-[#7a1b3a] drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
                 Happy Boyfriend's Day
               </span>
             </h1>
-            <p className="text-4xl md:text-5xl font-light text-primary">My Love 💕</p>
+            <p className="text-4xl md:text-5xl font-light text-[#7a1b3a]">My Kabir 💕</p>
           </div>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">
-            Today is all about celebrating you and the incredible love we share. Every moment with you is a treasure I
-            hold close to my heart.
+            I love you and will always be by your side.
           </p>
 
           {/* Decorative hearts */}
@@ -132,20 +131,20 @@ export default function BoyfriendsDayPage() {
       <footer className="py-12 px-4 text-center">
         <div className="max-w-2xl mx-auto space-y-6">
           <div className="flex justify-center gap-2">
-            <Heart className="w-5 h-5 text-primary animate-pulse" fill="currentColor" />
+            <Heart className="w-5 h-5 text-[#7a1b3a] animate-pulse" fill="currentColor" />
             <Heart
-              className="w-5 h-5 text-secondary animate-pulse"
+              className="w-5 h-5 text-[#a02d56] animate-pulse"
               fill="currentColor"
-              style={{ animationDelay: "0.3s" }}
+              style={{ animationDelay: "0.2s" }}
             />
             <Heart
-              className="w-5 h-5 text-accent animate-pulse"
+              className="w-5 h-5 text-[#d3477a] animate-pulse"
               fill="currentColor"
-              style={{ animationDelay: "0.6s" }}
+              style={{ animationDelay: "0.4s" }}
             />
           </div>
-          <p className="text-lg text-muted-foreground">Forever yours, always and forever 💕</p>
-          <p className="text-sm text-muted-foreground/70">Made with endless love on Boyfriend's Day 2025</p>
+          <p className="text-lg text-muted-foreground">Forever yours, always - Aagnya 💕</p>
+          <p className="text-sm text-muted-foreground/70">Made with endless love on by your Eggniya</p>
         </div>
       </footer>
     </div>

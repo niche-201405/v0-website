@@ -11,24 +11,24 @@ export default function PhotoGallery() {
   // Placeholder photos - replace with your actual photos
   const photos = [
     {
-      url: "/romantic-couple-at-sunset-beach.jpg",
-      caption: "Our first beach sunset together 🌅",
+      url: "/nightout.jpg",
+      caption: "The day maybe something sparked between us",
     },
     {
-      url: "/happy-couple-laughing-in-park.jpg",
-      caption: "That day you made me laugh until I cried 😂",
+      url: "/bandstand.jpg",
+      caption: "Our first date together 🌅",
     },
     {
-      url: "/couple-holding-hands-walking.jpg",
-      caption: "Every step with you feels like home 🏡",
+      url: "/traditionals.jpg",
+      caption: "Every hug with you feels like home 🏡",
     },
     {
-      url: "/romantic-dinner-date-couple.jpg",
-      caption: "Our anniversary dinner - unforgettable 💕",
+      url: "/twining.jpg",
+      caption: "Our random twinning moment 💕",
     },
     {
-      url: "/couple-adventure-hiking-mountains.jpg",
-      caption: "Adventures are better with you 🏔️",
+      url: "/navratri.jpg",
+      caption: "The unforgettable navratri moment 💕",
     },
   ]
 
@@ -43,8 +43,10 @@ export default function PhotoGallery() {
   return (
     <div className="space-y-8">
       {/* Main Photo Display */}
-      <Card className="relative overflow-hidden bg-card border-2 border-primary/20 shadow-2xl">
-        <div className="relative aspect-[4/3] md:aspect-[16/10]">
+      <Card
+        className="relative overflow-hidden bg-card border-2 border-primary/20 shadow-2xl mx-auto aspect-square p-0"
+        style={{ width: "min(90vw, 90vh)" }}
+      >
           <img
             src={photos[currentIndex].url || "/placeholder.svg"}
             alt={photos[currentIndex].caption}
@@ -75,7 +77,6 @@ export default function PhotoGallery() {
               {photos[currentIndex].caption}
             </p>
           </div>
-        </div>
       </Card>
 
       {/* Thumbnail Navigation */}
